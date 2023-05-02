@@ -44,21 +44,4 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
   }
 };
 
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "drsAJ4SHPYqZeG-83QTVW" });
-// invokeAction({
-//   action: "add",
-//   name: "John Krawitz",
-//   email: "JohnK@gmail.com",
-//   phone: "(542) 451-7038",
-// });
-// invokeAction({
-//   action: "update",
-//   id: "AeHIrLTr6JkxGE6SN-0Rw",
-//   name: "Eleonor Kuktible",
-//   email: "Kuktible@gmail.com",
-//   phone: "(992) 914-3792",
-// });
-// invokeAction({ action: "remove", id: "D7wIVs9_ejTyV9xb7yAsy" });
-
 invokeAction(argv);
